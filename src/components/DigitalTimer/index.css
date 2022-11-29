@@ -1,0 +1,116 @@
+/* Write your CSS here */
+.app-container {
+  background: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  padding: 4px;
+  font-family: 'Roboto';
+}
+.heading {
+  text-align: center;
+  color: #1e293b;
+}
+.container {
+  width: 100%;
+}
+.timer-controllers-container {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.timer-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 80vh;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.timer-cont {
+  height: 200px;
+  width: 200px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.status {
+  font-weight: bold;
+}
+/* timer-controllers-section */
+.controllers-container {
+  width: 40%;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+.timer-controller-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 28px;
+}
+.timer-ctrl-btn {
+  height: 32px;
+  width: 32px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+}
+.ctrl-btn-img {
+  height: 30px;
+  width: 30px;
+}
+.reset-btn-img {
+  height: 30px;
+  width: 30px;
+}
+.reset-ctrl-btn {
+  height: 32px;
+  width: 32px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 40px;
+  margin-right: 10px;
+}
+/* btn-controller  section */
+.btn-controllers {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid black; */
+  width: 30%;
+  margin: 0% auto;
+}
+.limit-value-cont {
+  background: linear-gradient(to right, #0cf4a7, #00d9f5);
+  height: 40px;
+  width: 80px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #0f172a;
+}
+.limit-ctrl-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  color: #0f172a;
+  font-weight: bold;
+  font-size: 30px;
+}
